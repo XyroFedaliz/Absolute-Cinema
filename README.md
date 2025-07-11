@@ -18,10 +18,7 @@ AbsoluteCinema adalah aplikasi pemesanan tiket bioskop berbasis desktop (GUI PyQ
 
 ## 📸 Tampilan Aplikasi
 
-![home](screenshots/home.png)
-![kursi](screenshots/seats.png)
-![payment](screenshots/payment.png)
-![history](screenshots/history.png)
+![Login](Preview/1.png)
 
 > Gambar di atas merupakan contoh layout tampilan pengguna.
 
