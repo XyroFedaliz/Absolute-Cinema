@@ -28,15 +28,32 @@ AbsoluteCinema adalah aplikasi pemesanan tiket bioskop berbasis desktop (GUI PyQ
 ---
 
 ## 🧩 Struktur Folder
+```   
 AbsoluteCinema/
-├── MainProgram.py # Main logic aplikasi
-├── Database.py # Fungsi query MySQL
-├── db_bioskop_v2.sql # Struktur & data awal database
-├── seats_ui.py # UI layout pemilihan kursi
-├── payment_ui.py # UI pembayaran
-├── historybill_ui.py # UI bukti transaksi
-└── README.md # Dokumentasi ini
-
+├── MainProgram.py # Entry point aplikasi
+├── resources_rc.py # Resource gambar/icon (dari Qt Designer)
+│
+├── Tools/
+│ ├── Database.py # Semua fungsi koneksi & query MySQL
+│ └── db_bioskop_v3.sql # Struktur & data awal database
+│
+├── UI/ # Semua tampilan (UI) dari halaman aplikasi
+│ ├── detail_ui.py
+│ ├── history_bill_ui.py
+│ ├── history_ui.py
+│ ├── home_admin_ui.py
+│ ├── home_user_ui.py
+│ ├── laporan_ui.py
+│ ├── loading.py
+│ ├── login_ui.py
+│ ├── payment_ui.py
+│ ├── pilih_film_ui.py
+│ ├── register_ui.py
+│ ├── resources_rc.py
+│ ├── seats_ui.py
+│ ├── update_detail_ui.py
+│ └── update_film_ui.py
+```   
 ---
 
 ## 💻 Cara Menjalankan
