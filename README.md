@@ -42,23 +42,24 @@ AbsoluteCinema/
 ## 💻 Cara Menjalankan
 
 1. Clone repositori:
-
+```
 git clone https://github.com/username/AbsoluteCinema.git
 cd AbsoluteCinema
-
+```
 2. Install dependensi:
-
+```
 pip install PyQt5 mysql-connector-python qrcode pillow
-
+```
 3. Import database:
 
 Gunakan tools seperti phpMyAdmin atau MySQL Workbench
 Import file db_bioskop_v2.sql
 
 4. Jalankan aplikasi:
-   
+```   
 python MainProgram.py
-
+```
+---
 🛠️ Teknologi yang Digunakan
 Python 3
 PyQt5 (GUI)
@@ -66,18 +67,10 @@ MySQL
 qrcode + pillow
 Qt Designer (untuk UI)
 
+---
+
 📄 Lisensi
 Proyek ini dibuat untuk tujuan pembelajaran. Bebas digunakan dan dimodifikasi. Tidak diperjualbelikan.
-
-—
-
-📌 Catatan:
-- Ganti bagian `https://github.com/username/AbsoluteCinema.git` dengan link GitHub kamu sendiri
-- Folder screenshots/ berisi gambar tampilan aplikasi (kalau kamu mau tampilkan)
-- Ganti nama author sesuai username GitHub kamu
-
-Kalau mau, saya bantu juga buat file .gitignore, lisensi MIT, atau struktur folder lengkap. Mau sekalian?
-
 
 
 
